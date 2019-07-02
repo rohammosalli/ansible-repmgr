@@ -91,7 +91,7 @@
       --host {{ repmgr_master_node }} \
       --dbname {{ repmgr_db_name }} \
       --user {{ repmgr_db_user }} \
-      --port 55432
+      --port 35432
       --data-dir {{ repmgr_pg_data_dir }} \
       --verbose \
       standby clone
